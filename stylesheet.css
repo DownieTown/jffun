@@ -1,0 +1,25 @@
+:root {
+    --black : #222;
+    --white : #DDD;
+    --primary: --black;
+    --background : --white;
+}
+:root.inverse {
+    --primary: --white;
+    --background : --black;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: --white;
+        --background : --black;
+    }
+    :root.inverse {
+        --primary: --white;
+        --background : --black;
+    }
+}
+body {
+    background-color: var(--background);
+    color: var(--primary);
+}
