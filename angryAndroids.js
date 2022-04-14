@@ -16,7 +16,7 @@
         frame.style.borderColor = "var(--green)";
     }
     const tSwitch = () => {
-        root.classlist.toggle('inverse');
+        root.classlist.toggle("inverse");
     }
 
     tToggle.addEventListener('click',tSwitch);
