@@ -11,7 +11,7 @@
     const unglare = () => {
         androidEyes[0].style.backgroundColor = "var(--background)";
         androidEyes[1].style.backgroundColor = "var(--background)";
-        frame.style.borderColor = "lime";
+        frame.style.borderColor = "var(--green)";
     }
 
 
