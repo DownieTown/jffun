@@ -118,4 +118,10 @@ body {
 .eyes.left {
     left: 42%;
 }
-
+.dmToggle {
+    background: var(--background);
+    width: 400px;
+    height: 200px;
+    border-radius: 100px;
+    padding: 10px; 
+}
