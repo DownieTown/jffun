@@ -3,7 +3,7 @@
     --white : #DDD;
     --primary: var(--black);
     --background : var(--white);
-    --green : var(--green);
+    --green : limegreen;
 }
 :root.inverse {
     --primary: var(--white);
