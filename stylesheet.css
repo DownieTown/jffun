@@ -19,6 +19,10 @@
         --primary: var(--white);
         --background : var(--black);
     }
+    .inverse .dtToggle {
+        justify-content: end;
+        background: cadetblue;
+    }
 }
 body {
     background-color: var(--background);
@@ -119,15 +123,22 @@ body {
     left: 42%;
 }
 .dtToggle {
-    background: var(--green);
+    display: flex;
+    background: cadetblue;
     width: 40px;
     height: 20px;
     border-radius: 20px;
     border: 5px solid var(--primary);
+    transition: 0.3s ease-in-out;
+    justify-content: end;
 }
 .dtToggleBall {
     background: var(--background);
     height: 100%;
     width: 50%;
     border-radius: 50%;
+}
+.inverse .dtToggle {
+    justify-content: start;
+    background: var(--green);
 }
